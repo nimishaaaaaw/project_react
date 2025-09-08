@@ -1,0 +1,237 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+\vspace*{-12mm}
+\begin{center}
+    \textbf{\Huge \scshape Nimisha Dadaji Majgawali}
+\end{center}
+\begin{center}
+
+\vspace*{-1.71mm}
+\small +91 8962763631 $|$
+\href{nimishamajgawali16112001@gmail.com}{\underline{nimishamajgawali16112001@gmail.com}} $|$
+\href{https://www.linkedin.com/in/nimisha-majgawali-97420b315/}{\underline{linkedin.com/in/Nimisha}} $|$
+\href{https://github.com/nimishaaaaaw}{\underline{github.com/in/nimishaaaaaw}} 
+
+\end{center}
+
+
+
+%-----------EDUCATION-----------
+\vspace*{-6mm}
+\section{\textbf{EDUCATION}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {VIT Bhopal University}{Bhopal, Madhya Pradesh}
+      {B.Tech CSE (Specialization Health Informatics), GPA: 8.43/10}{Oct. 2022 -- Present}
+  \resumeSubHeadingListEnd
+  \vspace*{-3.5mm}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Delhi Public School Durg}{Bhilai, Chhattisgarh}
+      {CBSE, X: 90\%}{Apr. 2017 -- Mar. 2018}
+  \resumeSubHeadingListEnd
+  \vspace*{-3.5mm}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Delhi Public School Durg}{Bhilai, Chhattisgarh}
+      {CBSE, XII: 94\%}{Apr. 2019 -- Mar. 2020}
+  \resumeSubHeadingListEnd
+
+%-----------Extracurriculars-----------
+\section{\textbf{PROJECTS}}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\underline{\textbf{Tourvisto} {\textbar\textbf{ MongoDB, Express.js, React.js, Node.js}}}}{Jan. 2025 -- May 2025}
+      {}{}\vspace*{-4mm}
+      \resumeItemListStart
+        \resumeItem{\textbf{Engineered a full-stack admin dashboard} with \textbf{10+ interactive components}, centralising \textbf{data management} \& visualisation.}
+        \resumeItem{\textbf{Developed 15+ RESTful APIs} (Node.js/Express) with MongoDB handling \textbf{10K+ records}, reducing data \textbf{lookup time} for end-users by \textbf{≈30\%}.}
+        \resumeItem{\textbf{Integrated 7 chart types} and custom tables to improve data readability for \textbf{1000+ concurrent users}.}
+        \resumeItem{Applied \textbf{state management} and \textbf{modular architecture} to deliver a responsive, \textbf{scalable} and maintainable app.}
+        
+      \resumeItemListEnd
+
+
+    \resumeSubheading
+      {\underline{Zenote {\textbar\textbf{ React, Vite, PWA, Firebase, AES Encryption}}}}{Dec. 2024 -- Feb 2025}
+      {}{}\vspace*{-4mm}
+      \resumeItemListStart
+        \resumeItem{\textbf{Designed} a \textbf{privacy-first notes} \textbf{PWA} using React, Vite and Firebase, delivering offline-capable note taking and a \textbf{100\% Lighthouse PWA score}.
+}
+        \resumeItem{\textbf{Implemented} client-side \textbf{AES} \textbf{encryption} for zero-knowledge storage of \textbf{5000+ notes}, safeguarding user data.}
+        \resumeItem{\textbf{Architected} a \textbf{modular, responsive UI} with custom React hooks for real-time syncing across devices, \textbf{improving load/render times by ≈40\%}.}
+        \resumeItem{\textbf{Integrated Firebase Authentication} and role-based access to \textbf{manage 1000+ test users} securely, ensuring \textbf{scalability} and a smooth user experience.}
+
+
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\underline{\textbf{Nutrigenie} {\textbar\textbf{ Python, Docker, MongoDB, Streamlit}}}}{Jun. 2024 -- Sept. 2024}
+      {}{}\vspace*{-4mm}
+      \resumeItemListStart
+        
+        \resumeItem{\textbf{Built} a \textbf{personalized food recommendation system} using \textbf{Machine Learning} (cosine similarity) achieving \textbf{89\% accuracy} in \textbf{goal-specific} meal plans based on users’ \textbf{BMI \& BMR}.}
+        \resumeItem{\textbf{Processed 500+ food items} with full nutrient profiles, enabling evidence-based recommendations.}
+        \resumeItem{\textbf{Added recipe generation} with \textbf{nutrient analysis} \& step-by-step instructions, boosting \textbf{user engagement by ≈35\%}.}
+        \resumeItem{\textbf{Containerised} with Docker \& optimised MongoDB queries for \textbf{$<\textbf{500}$} \textbf{ms recommendation latency}, ensuring scalable, real-time results.}
+    
+    
+      \resumeItemListEnd
+      
+    
+    
+    
+
+  \resumeSubHeadingListEnd
+
+
+%-----------Experience-----------
+
+
+\vspace*{-6mm}
+\section{\textbf{TECHNICAL SKILLS}}
+    \begin{itemize}[leftmargin=0.15in, label={}]
+        \setlength{\itemsep}{-3.5pt}
+        
+        \renewcommand{\labelitemi}{} % This removes the bullet point for the first level
+        \item \textbf{Programming Languages}: Python, Java, C++
+        \item \textbf{Web Development}: JavaScript, HTML5, CSS (Flexbox, Bootstrap), React, Node.js, Express.js, Angular, Vue.js, Django, Flask, REST APIs
+        \item \textbf{Databases \& Data Analysis}: MySQL, PostgreSQL, MongoDB, Pandas, NumPy, Tableau, Excel
+        \item \textbf{Machine Learning \& AI}: TensorFlow, PyTorch, Keras, Scikit-learn, OpenCV
+        \item \textbf{Tools \& Platforms}: Git, Firebase, Figma, Postman, Linux, Cloud Computing
+        \item \textbf{Core Concepts}: Data Structures \& Algorithms (DSA), Object-Oriented Programming (OOP)
+    \end{itemize}
+    
+      
+      
+      
+   
+
+%-----------Courses-----------
+\vspace*{-6mm}
+\section{\textbf{CERTIFICATIONS \& ACHIEVEMENTS}}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \setlength{\itemsep}{-3.5pt}
+    \renewcommand{\labelitemi}{}
+    \item \textbf{Applied Machine Learning in Python} – Coursera
+    \item \textbf{Full-Stack Web Development} – Udemy
+    \item \textbf{AWS Academy Cloud Foundations \& Architecting} – AWS Academy
+    \item \textbf{Git Complete} – Udemy
+    \item \textbf{Leetcode} – 230+ questions, 5 badges
+    \item \textbf{Proficiency Award} – 7 years (DPS Durg)
+\end{itemize}
+
+    
+
+%-----------Skill and Interests-----------
+
+
+
+
+
+\end{document}
